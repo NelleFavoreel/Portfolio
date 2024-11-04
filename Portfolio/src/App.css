@@ -16,7 +16,11 @@
 .second h4 {
 	margin: 50px;
 }
-
+.lineImg {
+	width: 120%;
+	margin-left: -10%;
+	margin-top: -150px;
+}
 /* Cards */
 .content h1 {
 	text-align: center;
@@ -58,7 +62,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(45deg, #c77bff, #040129);
+	background: linear-gradient(45deg, #040129, #040129);
 	border-radius: 1.2em;
 }
 

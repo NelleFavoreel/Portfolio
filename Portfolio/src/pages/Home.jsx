@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AnimationText from "../Components/AnimationTitle";
 import Work from "../components/Work";
+import Line from "../assets/line1.png";
 
 function Home() {
 	return (
@@ -27,6 +28,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<img className="lineImg" src={Line} alt="" />
 			<div>
 				<Work></Work>
 			</div>
