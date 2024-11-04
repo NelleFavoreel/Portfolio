@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AnimationText from "../Components/AnimationTitle";
+import Work from "../components/Work";
 
 function Home() {
 	return (
@@ -25,6 +26,9 @@ function Home() {
 						</h4>
 					</div>
 				</div>
+			</div>
+			<div>
+				<Work></Work>
 			</div>
 		</>
 	);
