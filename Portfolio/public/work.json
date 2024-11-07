@@ -5,7 +5,8 @@
 		"BasicDescription": "blablablabla",
 		"Description": "Een sport app",
 		"Year": 18.0,
-		"Details": "react"
+		"Details": "react",
+		"Img": "/src/assets/voorbeeldFoto.webp"
 	},
 	{
 		"Id": 2,

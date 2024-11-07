@@ -26,14 +26,18 @@ function Work() {
 								<span>
 									<div className="content">
 										<h2>{item.Title}</h2>
+										<img src={item.Img} alt="" />
 										<p>{item.BasicDescription}</p>
-										<p>{item.Year}</p>
-										<p>{item.Details}</p>
+										<div className="info">
+											<p>{item.Year}</p>
+											<p>{item.Details}</p>
+										</div>
 									</div>
 								</span>
 							</li>
 						))}
 					</ul>
+					<h4>Zie meer</h4>
 				</div>
 			</div>
 		</>

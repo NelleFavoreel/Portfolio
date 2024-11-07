@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AnimationText from "../Components/AnimationTitle";
 import Work from "../components/Work";
 import Line from "../assets/line1.png";
+import Line2 from "../assets/line2.png";
 
 function Home() {
+	const [offsetY, setOffsetY] = useState(0);
+
+	const handleScroll = () => {
+		setOffsetY(window.pageYOffset);
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, []);
+
 	return (
 		<>
 			<div className="title">
 				<h1>Nelle Favoreel</h1>
-				<AnimationText></AnimationText>
+				<AnimationText />
 			</div>
 			<div className="profile">
 				<h1>Profile</h1>
@@ -28,9 +40,59 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<img className="lineImg" src={Line} alt="" />
+			<img
+				className="lineImg"
+				src={Line}
+				alt=""
+				style={{
+					transform: `translateY(${offsetY * -0.2}px)`,
+				}}
+			/>
 			<div>
-				<Work></Work>
+				<Work />
+			</div>
+			<div className="lineImg2-container">
+				<img
+					className="lineImg2"
+					src={Line2}
+					alt=""
+					style={{
+						transform: `translateY(${offsetY * -0.15}px)`,
+					}}
+				/>
+			</div>
+			<div className="education">
+				<h1>Education</h1>
+				<div className="schoolInfo">
+					<div>
+						<h3>Erasmushogeschool Brussel</h3>
+					</div>
+					<div>
+						<h3>
+							2020-heden <br /> Mutimedia & creatieve technologie
+						</h3>
+					</div>
+				</div>
+				<div className="schoolInfo">
+					<div>
+						<h3>ColomaPlus (Mechelen)</h3>
+					</div>
+					<div>
+						<h3>
+							2019-2020 <br /> Fotografie
+						</h3>
+					</div>
+				</div>
+				<div className="schoolInfo">
+					<div>
+						<h3>Paridaens (Leuven)</h3>
+					</div>
+					<div>
+						<h3>
+							2017-2019 <br /> Humane wetenschappen
+						</h3>
+					</div>
+				</div>
 			</div>
 		</>
 	);
