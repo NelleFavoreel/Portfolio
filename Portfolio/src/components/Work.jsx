@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Work() {
 	const [data, setData] = useState([]);
@@ -16,14 +17,14 @@ function Work() {
 	}, []);
 
 	return (
-		<>
-			<div className="carts">
-				<div className="content">
-					<h1>Work</h1>
-					<ul className="card-list">
-						{data.map((item) => (
-							<li key={item.Id} className="card">
-								<span>
+		<div className="carts">
+			<div className="content">
+				<h1>Work</h1>
+				<ul className="card-list">
+					{data.map((item) => (
+						<li key={item.Id} className="card">
+							<span>
+								<Link to={`/work/${item.Id}`}>
 									<div className="content">
 										<h2>{item.Title}</h2>
 										<img src={item.Img} alt="" />
@@ -33,14 +34,14 @@ function Work() {
 											<p>{item.Details}</p>
 										</div>
 									</div>
-								</span>
-							</li>
-						))}
-					</ul>
-					<h4>Zie meer</h4>
-				</div>
+								</Link>
+							</span>
+						</li>
+					))}
+				</ul>
+				<h4>Zie meer</h4>
 			</div>
-		</>
+		</div>
 	);
 }
 

@@ -2,9 +2,9 @@
 	{
 		"Id": 1,
 		"Title": "Fitpro",
-		"BasicDescription": "blablablabla",
+		"BasicDescription": "Het is een app voor sportoefeningen weer te geven waar je kan kijken welke oefeningen je kan doen en hoelang je dat wil maken ",
 		"Description": "Een sport app",
-		"Year": 18.0,
+		"Year": 2020,
 		"Details": "react",
 		"Img": "/src/assets/voorbeeldFoto.webp"
 	},
@@ -13,23 +13,26 @@
 		"Title": "Sprookje",
 		"BasicDescription": "blablablabla",
 		"Description": "Een storytelling ding",
-		"Year": 18.0,
-		"Details": "react"
+		"Year": 2024,
+		"Details": "react",
+		"Img": "/src/assets/voorbeeldFoto.webp"
 	},
 	{
 		"Id": 3,
 		"Title": "Fitpro",
 		"BasicDescription": "blablablabla",
 		"Description": "Een sport app",
-		"Year": 18.0,
-		"Details": "react"
+		"Year": 2023,
+		"Details": "react en vite",
+		"Img": "/src/assets/voorbeeldFoto.webp"
 	},
 	{
 		"Id": 4,
 		"Title": "Sprookje",
 		"BasicDescription": "blablablabla",
 		"Description": "Een storytelling ding",
-		"Year": 18.0,
-		"Details": "react"
+		"Year": 2022,
+		"Details": "react",
+		"Img": "/src/assets/voorbeeldFoto.webp"
 	}
 ]

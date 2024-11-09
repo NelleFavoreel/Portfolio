@@ -4,6 +4,9 @@ import AnimationText from "../Components/AnimationTitle";
 import Work from "../components/Work";
 import Line from "../assets/line1.png";
 import Line2 from "../assets/line2.png";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
 	const [offsetY, setOffsetY] = useState(0);
@@ -27,16 +30,16 @@ function Home() {
 				<h1>Profile</h1>
 				<div className="second">
 					<div>
-						<h4>
+						<p>
 							Mijn naam is Nelle, ik ben 20 jaar en studeer Multimedia aan de Erasmushogeschool Brussel. In mijn studie en persoonlijke projecten heb ik een sterke passie ontwikkeld voor zowel app- als webontwikkeling. Ik werk graag met technologieën
 							zoals Swift voor het ontwikkelen van iOS-apps en met front-end tools zoals React en Vue voor moderne, interactieve websites.
-						</h4>
+						</p>
 					</div>
 					<div>
-						<h4>
+						<p>
 							Ik ben continu op zoek naar nieuwe uitdagingen en mogelijkheden om mijn vaardigheden uit te breiden. Innovatie, creativiteit en een leergierige houding zijn kernwaarden die mij drijven om constant beter te worden in mijn vakgebied. Met
 							een nieuwsgierige blik op de toekomst, kijk ik ernaar uit om mijn kennis verder te verdiepen en toe te passen in de snel veranderende wereld van technologie.
-						</h4>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -94,6 +97,9 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<Skills></Skills>
+			<Contact></Contact>
+			<Footer></Footer>
 		</>
 	);
 }
