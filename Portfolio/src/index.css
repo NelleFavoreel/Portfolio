@@ -15,14 +15,20 @@ h2 {
 }
 body {
 	background-color: #040129;
-	color: white;
-	margin: 50px 100px;
+	color: #ebe9ff;
 }
+
 p,
 span {
 	font-size: 20px;
 	font-family: “Palanquin”, sans-serif;
+	font-weight: 100;
 }
+label {
+	font-family: “Palanquin”, sans-serif;
+	font-weight: 100;
+}
+
 .card a {
 	text-decoration: none;
 	color: inherit; /* Optional: To make the link text color inherit from the parent */

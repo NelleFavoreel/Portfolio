@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 function Work() {
 	const [data, setData] = useState([]);
 
@@ -17,29 +17,24 @@ function Work() {
 	}, []);
 
 	return (
-		<div className="carts">
-			<div className="content">
-				<h1>Work</h1>
-				<ul className="card-list">
-					{data.map((item) => (
-						<li key={item.Id} className="card">
-							<span>
-								<Link to={`/work/${item.Id}`}>
-									<div className="content">
-										<h2>{item.Title}</h2>
-										<img src={item.Img} alt="" />
-										<p>{item.BasicDescription}</p>
-										<div className="info">
-											<p>{item.Year}</p>
-											<p>{item.Details}</p>
-										</div>
-									</div>
-								</Link>
-							</span>
-						</li>
-					))}
-				</ul>
-				<h4>Zie meer</h4>
+		<div className="work-container">
+			<h1>Work</h1>
+			<div className="card-list">
+				{data.map((item, index) => (
+					<div key={item.Id} className={`card ${(index + 1) % 2 === 0 ? "card-right" : ""}`}>
+						{/* Zwarte vlak voor de afbeelding */}
+						<img src={item.Img} alt="" />
+
+						{/* Paarse vlak voor de tekst */}
+						<div className="card-content">
+							<h2>{item.Title}</h2>
+							<p>{item.BasicDescription}</p>
+							<Link to={`/work/${item.Id}`} className="details-link">
+								&gt;
+							</Link>
+						</div>
+					</div>
+				))}
 			</div>
 		</div>
 	);

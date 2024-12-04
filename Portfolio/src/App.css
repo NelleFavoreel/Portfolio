@@ -1,141 +1,126 @@
 /* Algemeen */
 .title {
-	margin-top: 25%;
+	margin: 25% 100px;
 }
 
 .profile {
-	margin-top: 30%;
+	margin-top: 10%;
 	text-align: center;
 }
 
 .second {
 	display: flex;
 	text-align: left;
+	margin: 0px 100px;
 }
 
-.second h4 {
-	margin: 50px;
+.second p {
+	margin: 50px 20px;
 }
-.lineImg {
-	width: 120%;
-	margin-left: -12%;
-	margin-top: -30px;
+.lines {
+	height: 20%;
 }
 /* Cards */
-.content h1 {
+/* Container styling */
+.work-container {
+	padding: 20px;
 	text-align: center;
-	margin-bottom: 40px;
+}
+.work-container h1 {
+	color: #040129;
 }
 
-.carts {
-	margin-top: -100px;
-	text-align: center;
-}
 .card-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 15%; /* Ruimte tussen de kaarten */
-	justify-content: center; /* Centreer de items */
-	padding: 0;
-	margin: 0;
-	list-style: none;
+
+	justify-content: space-around;
 }
 
+/* Card styling */
 .card {
-	position: relative;
-	width: 500px;
-	height: 600px;
-	color: #fff;
-	transition: 0.7s;
-	cursor: pointer;
-	margin-bottom: 100px;
-	margin-top: 40px;
-}
-
-.card:hover {
-	transform: translateY(-20px);
-}
-
-.card::before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: linear-gradient(45deg, #040129, #040129);
-	border-radius: 0em;
-}
-
-.card::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(45deg, #ffffff, #ffffffe2);
-	filter: blur(10px);
-}
-
-.card span {
-	position: absolute;
-	top: 6px;
-	left: 6px;
-	right: 6px;
-	bottom: 6px;
-	background-color: #040129;
-	z-index: 2;
-	border-radius: 1em;
-}
-
-.card .content {
-	position: relative;
-	padding: 20px;
-	z-index: 10;
-	width: 90%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 	align-items: center;
-	justify-content: space-around;
-	font-weight: 800;
-	font-size: 1.2em;
-	text-align: center;
+	margin: 50px 0px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.content img {
-	width: 90%;
-	margin-top: 20px;
+
+/* Zwarte vlak met afbeelding */
+.card img {
+	width: 80%;
+	height: 80%;
 }
-.info {
-	display: flex;
-	justify-content: space-around;
-	width: 500px;
-	margin-top: 20px;
+
+/* Paarse vlak met tekst */
+.card-content {
+	background-color: #6a1b9a; /* Paarse kleur */
+	color: #ffffff;
+	padding: 20px;
+	margin-left: 400px;
+	margin-top: -150px;
+	position: relative;
+	text-align: left;
+	height: 150px;
+	width: 300px;
 }
-/* lineInfo */
-.lineImg2 {
-	width: 130%;
-	margin-left: -15%;
-	margin-top: 200px;
+.card-right .card-content {
+	background-color: #6a1b9a; /* Paarse kleur */
+	color: #ffffff;
+	padding: 25px;
+	margin-top: -150px;
+	position: relative;
+	text-align: left;
+	height: 150px;
+	width: 300px;
+	margin-left: 0px;
+	margin-right: 400px;
 }
-.lineImg2-container {
-	height: 400px;
+.card-content h2 {
+	font-size: 1.2rem;
+	margin: 0 0 10px;
+}
+
+.card-content p {
+	font-size: 0.9rem;
+	margin: 0 0 10px;
+	line-height: 1.4;
+}
+
+/* Link styling */
+.details-link {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 1.5rem;
+
+	text-decoration: none;
+}
+
+.details-link:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s ease;
+}
+.box {
+	height: 800%;
 }
 /* education */
 .schoolInfo {
 	display: flex;
 	justify-content: space-between;
-	width: 700px;
+	margin: auto;
 }
 .education {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: -100px;
+	margin-top: -300px;
 }
 .schoolInfo h3 {
 	width: 300px;
+	font-family: “Palanquin”, sans-serif;
+	font-weight: 100;
 }
 .education h1 {
 	margin-bottom: 50px;
@@ -147,7 +132,9 @@
 	color: #fff;
 	padding: 40px;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 25%;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .skills-section h1 {
@@ -213,6 +200,8 @@
 	color: #fff;
 	padding: 40px;
 	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
 	border-radius: 10px;
 }
 
@@ -261,7 +250,7 @@
 }
 
 .contact-form button {
-	background-color: #a251ff;
+	background-color: #470094;
 	color: #fff;
 	font-size: 1.2em;
 	padding: 10px;
@@ -277,10 +266,9 @@
 
 /* footer */
 .footer {
-	background-color: #040129;
 	color: #fff;
+	z-index: 3;
 	padding: 40px 0;
-	margin-top: 200px;
 }
 
 .footer-content h1 {
@@ -290,8 +278,12 @@
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
+	margin: 4% 140px;
 }
 
+.footer-content div {
+	margin-top: 2%;
+}
 .footer-content h2 {
 	margin: 5px 0;
 }
@@ -317,4 +309,27 @@
 	margin-bottom: 0px;
 	font-size: 1em;
 	opacity: 0.8;
+}
+.footer-container {
+	position: relative;
+	width: 100%;
+	height: 80%;
+	margin-top: 8%;
+	display: flex;
+	align-content: space-between;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.background-image {
+	width: 100%;
+	height: auto;
+	position: absolute; /* Zorg dat de afbeelding op de achtergrond staat */
+	top: 0;
+	left: 0;
+	z-index: 1; /* Laag die achter de footer ligt */
+}
+
+.footer {
+	position: relative; /* Zorg dat dit over de afbeelding heen geplaatst wordt */
 }
