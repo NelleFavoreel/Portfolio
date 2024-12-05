@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "../style/DetailWork.css";
+import { Link } from "react-router-dom";
 
 function WorkDetail() {
 	const { id } = useParams(); // Get the ID from the URL
@@ -21,15 +23,33 @@ function WorkDetail() {
 	}
 
 	return (
-		<div className="work-detail">
-			<h1>{item.Title}</h1>
-			<img src={item.Img} alt={item.Title} />
-			<p>{item.FullDescription}</p>
-			<div className="info">
-				<p>Year: {item.Year}</p>
-				<p>Details: {item.Details}</p>
+		<>
+			<div className="work-detail">
+				<Link to={`/`} className="Work-link">
+					Ga terug
+				</Link>
+				<div className="work-title">
+					<div>
+						<h1>{item.Title}</h1>
+						<h3>{item.Description}</h3>
+						<div className="info">
+							<p>Jaar: {item.Year}</p>
+							<p>Technologie: {item.Technologie}</p>
+						</div>
+						<button>{item.linkGithup} Githup Link</button>
+					</div>
+
+					<img src={item.Img} alt={item.Title} />
+				</div>
+				<p>{item.FullDescription}</p>
+
+				<div className="under-pictures">
+					<img src={item.Img1} alt="" />
+					<img src={item.Img2} alt="" />
+					<img src={item.Img3} alt="" />
+				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 

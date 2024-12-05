@@ -1,0 +1,35 @@
+.work-detail img {
+	width: 30%;
+}
+.work-detail {
+	margin-top: 100px;
+}
+.work-detail h3 {
+	font-family: “Palanquin”, sans-serif;
+	font-weight: 100;
+}
+.work-title {
+	display: flex;
+	justify-content: center;
+}
+.work-title img {
+	width: 40%;
+	margin-left: 10%;
+}
+.under-pictures img {
+	margin: 1%;
+}
+.work-title div {
+	width: 500px;
+}
+.under-pictures {
+	display: flex;
+	justify-content: center;
+}
+.work-detail {
+	display: flex;
+	flex-direction: column;
+}
+.info {
+	margin-top: 13%;
+}

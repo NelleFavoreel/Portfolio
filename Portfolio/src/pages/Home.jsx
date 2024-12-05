@@ -73,7 +73,7 @@ function Home() {
 					</div>
 				</ParallaxLayer>
 
-				<ParallaxLayer offset={3.2} speed={0.4}>
+				<ParallaxLayer offset={3.7} speed={0.4}>
 					<div className="education">
 						<h1>Education</h1>
 						<div className="schoolInfo">
@@ -108,7 +108,7 @@ function Home() {
 						</div>
 					</div>
 				</ParallaxLayer>
-				<ParallaxLayer offset={3.3} speed={0.4}>
+				<ParallaxLayer offset={3.7} speed={0.4}>
 					<Skills></Skills>
 				</ParallaxLayer>
 				<ParallaxLayer offset={4} speed={0.4}>

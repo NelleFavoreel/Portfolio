@@ -45,20 +45,20 @@
 	align-items: center;
 	margin: 50px 0px;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	width: 50%;
 }
 
 /* Zwarte vlak met afbeelding */
 .card img {
 	width: 80%;
-	height: 80%;
 }
 
 /* Paarse vlak met tekst */
 .card-content {
 	background-color: #6a1b9a; /* Paarse kleur */
 	color: #ffffff;
-	padding: 20px;
-	margin-left: 400px;
+	padding: 25px;
+	margin-left: 50%;
 	margin-top: -150px;
 	position: relative;
 	text-align: left;
@@ -75,7 +75,7 @@
 	height: 150px;
 	width: 300px;
 	margin-left: 0px;
-	margin-right: 400px;
+	margin-right: 50%;
 }
 .card-content h2 {
 	font-size: 1.2rem;
@@ -132,7 +132,7 @@
 	color: #fff;
 	padding: 40px;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 15%;
 	margin-left: 100px;
 	margin-right: 100px;
 }
