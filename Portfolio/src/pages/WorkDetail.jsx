@@ -25,18 +25,24 @@ function WorkDetail() {
 	return (
 		<>
 			<div className="work-detail">
-				<Link to={`/`} className="Work-link">
-					Ga terug
-				</Link>
 				<div className="work-title">
-					<div>
-						<h1>{item.Title}</h1>
-						<h3>{item.Description}</h3>
-						<div className="info">
-							<p>Jaar: {item.Year}</p>
-							<p>Technologie: {item.Technologie}</p>
+					<div className="infoText">
+						<div className="">
+							<Link to={`/`} className="Work-link">
+								&lt; Ga terug
+							</Link>
 						</div>
-						<button>{item.linkGithup} Githup Link</button>
+						<div>
+							<h1>{item.Title}</h1>
+							<h3>{item.Description}</h3>
+							<div className="info">
+								<p>Jaar: {item.Year}</p>
+								<p>Technologie: {item.Technologie}</p>
+							</div>
+							<a className="button" href={item.linkGithup}>
+								Github link
+							</a>
+						</div>
 					</div>
 
 					<img src={item.Img} alt={item.Title} />

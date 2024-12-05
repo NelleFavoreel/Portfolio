@@ -12,6 +12,8 @@ import Layer1 from "../assets/Layer1.png";
 import Layer2 from "../assets/Layer2.png";
 import Layer3 from "../assets/Layer3.png";
 import Box from "../assets/White.png";
+import { useInView } from "react-intersection-observer";
+
 function Home() {
 	const [offsetY, setOffsetY] = useState(0);
 
@@ -19,7 +21,10 @@ function Home() {
 		setOffsetY(window.pageYOffset);
 		console.log(window.pageYOffset);
 	};
-
+	const { ref, inView } = useInView({
+		triggerOnce: true, // Zorg ervoor dat de component maar één keer wordt geobserveerd
+		threshold: 0.3, // Zorg ervoor dat de component volledig in beeld is voordat de actie wordt uitgevoerd
+	});
 	useEffect(() => {
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
@@ -68,12 +73,13 @@ function Home() {
 					<img className="box" src={Box} alt="" />
 				</ParallaxLayer>
 				<ParallaxLayer offset={1.8} speed={0.4}>
-					<div>
-						<Work />
+					<div ref={ref} className={`work-visible ${inView ? "in-view" : ""}`}>
+						{/* Werk alleen zichtbaar maken wanneer volledig in beeld */}
+						{inView && <Work />}
 					</div>
 				</ParallaxLayer>
 
-				<ParallaxLayer offset={3.7} speed={0.4}>
+				<ParallaxLayer offset={3.8} speed={0.4}>
 					<div className="education">
 						<h1>Education</h1>
 						<div className="schoolInfo">

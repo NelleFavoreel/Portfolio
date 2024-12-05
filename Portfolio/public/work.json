@@ -26,16 +26,17 @@
 	},
 	{
 		"Id": 3,
-		"Title": "EXPO24",
-		"BasicDescription": "Een shocase website voor de derdejaars van Erasmushogeschool Brussel.",
-		"Description": "We hebben met een groep van vier personen een website ontwikkeld ter presentatie van de showcase van de derdejaarsstudenten van de Erasmushogeschool Brussel. Deze website dient als een platform om het werk, de creativiteit en de talenten van de studenten op een professionele en overzichtelijke manier in de kijker te zetten.",
+		"Title": "Zeemeermin",
+		"BasicDescription": "Een storytelling website over de kleine zeemeermin.",
+		"Description": "Een storytelling-website over De Kleine Zeemeermin, met een interface waar alle studenten hun werk kunnen presenteren. Bezoekers kunnen doorklikken naar de individuele parallax-websites van elke student om hun unieke verhalen te ontdekken.",
 		"Year": 2024,
 		"Technologie": "React.js, vite",
-		"Img": "/src/assets/expo/mockupExpo.jpg",
-		"Img1": "/src/assets/expo/expo2.png",
-		"Img2": "/src/assets/expo/expo3.png",
-		"Img3": "/src/assets/expo/expo4.png"
+		"Img": "/src/assets/web2/mockupZeemeermin copy.jpg",
+		"Img1": "/src/assets/web2/zeemeermin1.png",
+		"Img2": "/src/assets/web2/zeemeermin2.png",
+		"Img3": "/src/assets/web2/zeemeermin4.png"
 	},
+
 	{
 		"Id": 4,
 		"Title": "Quiz",
@@ -48,8 +49,21 @@
 		"Img2": "/src/assets/Quiz/quiz3.png",
 		"Img3": "/src/assets/Quiz/quiz4.png"
 	},
+
 	{
 		"Id": 5,
+		"Title": "EXPO24",
+		"BasicDescription": "Een shocase website voor de derdejaars van Erasmushogeschool Brussel.",
+		"Description": "We hebben met een groep van vier personen een website ontwikkeld ter presentatie van de showcase van de derdejaarsstudenten van de Erasmushogeschool Brussel. Deze website dient als een platform om het werk, de creativiteit en de talenten van de studenten op een professionele en overzichtelijke manier in de kijker te zetten.",
+		"Year": 2024,
+		"Technologie": "React.js, vite",
+		"Img": "/src/assets/expo/mockupExpo.jpg",
+		"Img1": "/src/assets/expo/expo2.png",
+		"Img2": "/src/assets/expo/expo3.png",
+		"Img3": "/src/assets/expo/expo4.png"
+	},
+	{
+		"Id": 6,
 		"Title": "Fitpro",
 		"BasicDescription": "Een website die adhv filters sportoefeningen genereerd.",
 		"Description": "Ik heb een website ontwikkeld die speciaal is ontworpen voor vrouwen, gericht op het genereren van op maat gemaakte fitnessoefeningen. Met behulp van verschillende filters, zoals fitnessdoelen, beschikbare tijd, moeilijkheidsgraad en type workout (bijvoorbeeld krachttraining, cardio, of flexibiliteit), kunnen gebruikers eenvoudig een trainingsroutine samenstellen die perfect bij hen past.",
@@ -59,17 +73,5 @@
 		"Img1": "/src/assets/web1/fit2.png",
 		"Img2": "/src/assets/web1/fit3.png",
 		"Img3": "/src/assets/web1/fit4.png"
-	},
-	{
-		"Id": 6,
-		"Title": "Zeemeermin",
-		"BasicDescription": "Een storytelling website over de kleine zeemeermin.",
-		"Description": "Een storytelling-website over De Kleine Zeemeermin, met een interface waar alle studenten hun werk kunnen presenteren. Bezoekers kunnen doorklikken naar de individuele parallax-websites van elke student om hun unieke verhalen te ontdekken.",
-		"Year": 2024,
-		"Technologie": "React.js, vite",
-		"Img": "/src/assets/web2/mockupZeemeermin copy.jpg",
-		"Img1": "/src/assets/web2/zeemeermin1.png",
-		"Img2": "/src/assets/web2/zeemeermin2.png",
-		"Img3": "/src/assets/web2/zeemeermin4.png"
 	}
 ]

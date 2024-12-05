@@ -1,0 +1,212 @@
+@media (max-width: 1000px) {
+	body {
+		margin: 0;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	label {
+		font-size: 10px;
+	}
+	p,
+	h3,
+	span {
+		font-size: 13px;
+	}
+	.title {
+		margin: 150px 50px;
+	}
+
+	.lines {
+		display: none;
+	}
+	.second {
+		align-items: center;
+		margin: 0px 20px;
+	}
+	.profile {
+		margin-top: -450px;
+	}
+	.work-container {
+		margin-top: -650px;
+	}
+	.work-container h1 {
+		color: white;
+	}
+	.card-list {
+		flex-direction: column;
+	}
+	.skills-category h2 {
+		font-size: 20px;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.skill {
+		margin: 10px 0px;
+	}
+	.card {
+		width: 100%;
+	}
+	.card-content {
+		margin-left: 0;
+		height: auto;
+		margin-top: -80px;
+	}
+	.card-right .card-content {
+		margin-right: 0;
+		height: auto;
+		margin-top: -80px;
+	}
+	.card img {
+		width: 100%;
+		height: 400px;
+	}
+	.box {
+		display: none;
+	}
+	.education {
+		margin-top: 00px;
+	}
+	.education h1 {
+		margin: 0px 0px 20px 0px;
+	}
+	.schoolInfo {
+		margin: 0px 10px;
+		width: 90%;
+	}
+	.schoolInfo h3 {
+		width: 200px;
+	}
+	.skills-section {
+		margin: 0;
+		margin-top: 350px;
+		flex-direction: column;
+	}
+	.card {
+		margin: 30px 0px;
+	}
+	.skills-section h1 {
+		margin: 0px 0px 20px 0px;
+	}
+	.contact-section {
+		flex-direction: column;
+		margin: 0;
+		margin-top: 200px;
+	}
+	.contact-section h1 {
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+	}
+	.contact-info {
+		text-align: center;
+	}
+	.skill span {
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.skills-category {
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.contact-info {
+		width: 100%;
+	}
+	.footer-container {
+		margin-top: 30%;
+	}
+	.footer-content {
+		margin: 0px 20px;
+		align-items: center;
+	}
+	.footer-content h1 {
+		font-size: 20px;
+	}
+	.contact-form textarea {
+		height: 100px;
+	}
+	.contact-info h1,
+	.contact-form h1 {
+		margin-bottom: 10px;
+	}
+	.social-icons a {
+		font-size: 15px;
+	}
+	.social-icons {
+		margin: 0;
+		margin-left: 90px;
+	}
+	.footer p {
+		display: none;
+	}
+	.footer {
+		padding: 10% 0px;
+	}
+}
+@media (max-width: 1480px) and (min-width: 1000px) {
+	body {
+		margin: 0;
+	}
+	.card-list {
+		align-items: center;
+	}
+	.card img {
+		width: 100%;
+		height: 400px;
+	}
+	.box {
+		display: none;
+	}
+	.work-container h1 {
+		color: white;
+	}
+	.card {
+		width: 40%;
+	}
+	.card-content {
+		margin-left: 0;
+		height: auto;
+		margin-top: -80px;
+		width: 80%;
+		height: 70px;
+	}
+
+	.card-right .card-content {
+		margin-right: 0;
+		height: auto;
+		margin-top: -80px;
+		width: 80%;
+		height: 70px;
+	}
+	.education {
+		margin-top: -550px;
+	}
+	.skills-section {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 1480px) and (min-width: 0px) {
+	.worktitle {
+		align-items: center;
+		flex-direction: column;
+		align-items: center;
+		padding: 50px;
+	}
+	.work-title img {
+		width: 70%;
+		margin-top: 30px;
+		margin-left: 0;
+	}
+	.work-title div {
+		width: 70%;
+	}
+	.under-pictures {
+		flex-direction: column;
+	}
+	.under-pictures img {
+		width: 70%;
+		align-items: center;
+	}
+}

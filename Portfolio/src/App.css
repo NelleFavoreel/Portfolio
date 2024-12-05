@@ -11,11 +11,12 @@
 .second {
 	display: flex;
 	text-align: left;
-	margin: 0px 100px;
+	margin: 30px 300px;
+	flex-direction: column;
 }
 
 .second p {
-	margin: 50px 20px;
+	margin: 5px 20px;
 }
 .lines {
 	height: 20%;
@@ -50,7 +51,10 @@
 
 /* Zwarte vlak met afbeelding */
 .card img {
-	width: 80%;
+	width: 70%; /* Vul de breedte van de container */
+	height: 490px; /* Stel een vaste hoogte in */
+	object-fit: cover; /* Zorg dat de afbeelding netjes past */
+	border-radius: 8px; /* Optioneel: geef een afgeronde rand voor styling */
 }
 
 /* Paarse vlak met tekst */
@@ -103,7 +107,8 @@
 	transition: transform 0.3s ease;
 }
 .box {
-	height: 800%;
+	height: 1300%;
+	margin-top: -85%;
 }
 /* education */
 .schoolInfo {
@@ -332,4 +337,12 @@
 
 .footer {
 	position: relative; /* Zorg dat dit over de afbeelding heen geplaatst wordt */
+}
+.work-visible {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.work-visible.in-view {
+	opacity: 1;
 }

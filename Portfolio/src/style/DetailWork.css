@@ -1,5 +1,5 @@
 .work-detail img {
-	width: 30%;
+	width: 28%;
 }
 .work-detail {
 	margin-top: 100px;
@@ -32,4 +32,20 @@
 }
 .info {
 	margin-top: 13%;
+}
+.Work-link {
+	text-decoration: none;
+	color: white;
+	font-family: “Palanquin”, sans-serif;
+	margin-left: -25%;
+}
+.button {
+	color: white;
+	font-family: “Palanquin”, sans-serif;
+	cursor: pointer;
+	font-weight: 100;
+}
+.infoText {
+	display: flex;
+	flex-direction: column;
 }
