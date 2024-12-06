@@ -52,7 +52,7 @@ function Home() {
 
 				<ParallaxLayer offset={1} speed={0.36}>
 					<div className="profile">
-						<h1>Profile</h1>
+						<h1>Profiel</h1>
 						<div className="second">
 							<div>
 								<p>
@@ -81,7 +81,7 @@ function Home() {
 
 				<ParallaxLayer offset={3.8} speed={0.4}>
 					<div className="education">
-						<h1>Education</h1>
+						<h1>Studies</h1>
 						<div className="schoolInfo">
 							<div>
 								<h3>Erasmushogeschool Brussel</h3>
@@ -124,10 +124,6 @@ function Home() {
 						<img src={Layer1} alt="Background Layer" className="background-image" />
 					</div>
 				</ParallaxLayer>
-
-				{/* <ParallaxLayer offset={4} sticky={{ start: 4, end: 4 }}>
-					<Footer></Footer>
-				</ParallaxLayer> */}
 			</Parallax>
 		</>
 	);
