@@ -10,7 +10,7 @@
 		"Img1": "/Portfolio/assets/3D spel/3D1.png",
 		"Img2": "/Portfolio/assets/3D spel/3D2.png",
 		"Img3": "/Portfolio/assets/3D spel/3D3.png",
-		"linkGithup": "https://github.com/EHB-MCT/web2-course-project-front-end-NelleFavoreel"
+		"linkGithup": "https://github.com/NelleFavoreel/3D-Object"
 	},
 	{
 		"Id": 2,
@@ -22,7 +22,8 @@
 		"Img": "/Portfolio/assets/dynamic transitions/MockupTransitions.jpg",
 		"Img1": "/Portfolio/assets/dynamic transitions/dynamic2.png",
 		"Img2": "/Portfolio/assets/dynamic transitions/dynamic3.png",
-		"Img3": "/Portfolio/assets/dynamic transitions/dynamic4.png"
+		"Img3": "/Portfolio/assets/dynamic transitions/dynamic4.png",
+		"linkGithup": "https://github.com/NelleFavoreel/DynamicTransitions"
 	},
 	{
 		"Id": 3,
@@ -34,7 +35,8 @@
 		"Img": "/Portfolio/assets/web2/mockupZeemeermin copy.jpg",
 		"Img1": "/Portfolio/assets/web2/zeemeermin1.png",
 		"Img2": "/Portfolio/assets/web2/zeemeermin2.png",
-		"Img3": "/Portfolio/assets/web2/zeemeermin4.png"
+		"Img3": "/Portfolio/assets/web2/zeemeermin4.png",
+		"linkGithup": "https://github.com/NelleFavoreel/ZeemeerminParalax"
 	},
 	{
 		"Id": 4,
@@ -46,7 +48,8 @@
 		"Img": "/Portfolio/assets/Quiz/mockupQuiz.jpg",
 		"Img1": "/Portfolio/assets/Quiz/quiz2.png",
 		"Img2": "/Portfolio/assets/Quiz/quiz3.png",
-		"Img3": "/Portfolio/assets/Quiz/quiz4.png"
+		"Img3": "/Portfolio/assets/Quiz/quiz4.png",
+		"linkGithup": "https://github.com/NelleFavoreel/Quiz"
 	},
 	{
 		"Id": 5,
@@ -58,7 +61,8 @@
 		"Img": "/Portfolio/assets/expo/mockupExpo.jpg",
 		"Img1": "/Portfolio/assets/expo/expo2.png",
 		"Img2": "/Portfolio/assets/expo/expo3.png",
-		"Img3": "/Portfolio/assets/expo/expo4.png"
+		"Img3": "/Portfolio/assets/expo/expo4.png",
+		"linkGithup": "https://github.com/NelleFavoreel/Expo24"
 	},
 	{
 		"Id": 6,
@@ -70,6 +74,7 @@
 		"Img": "/Portfolio/assets/web1/mockupFitPro.jpg",
 		"Img1": "/Portfolio/assets/web1/fit2.png",
 		"Img2": "/Portfolio/assets/web1/fit3.png",
-		"Img3": "/Portfolio/assets/web1/fit4.png"
+		"Img3": "/Portfolio/assets/web1/fit4.png",
+		"linkGithup": "https://github.com/EHB-MCT/web2-course-project-front-end-NelleFavoreel"
 	}
 ]

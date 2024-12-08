@@ -13,6 +13,7 @@ import Layer2 from "../assets/Layer2.png";
 import Layer3 from "../assets/Layer3.png";
 import Box from "../assets/White.png";
 import { useInView } from "react-intersection-observer";
+import ProfilePicture from "../../public/assets/ProfilePicture.png";
 
 function Home() {
 	const [offsetY, setOffsetY] = useState(0);
@@ -33,10 +34,13 @@ function Home() {
 	return (
 		<>
 			<Parallax pages={5.2} className="project">
-				<ParallaxLayer offset={0} speed={0}>
+				<ParallaxLayer offset={0} speed={0} className="header">
 					<div className="title">
 						<h1>Nelle Favoreel</h1>
 						<AnimationText />
+					</div>
+					<div className="profilePicture">
+						<img src={ProfilePicture} alt="foto" />
 					</div>
 				</ParallaxLayer>
 				<ParallaxLayer className="lines" offset={0.8} speed={0.2}>

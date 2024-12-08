@@ -10,7 +10,9 @@
 	}
 	p,
 	h3,
-	span {
+	span,
+	button,
+	a {
 		font-size: 13px;
 	}
 	.title {
@@ -26,6 +28,13 @@
 	}
 	.profile {
 		margin-top: -450px;
+	}
+	.profilePicture img {
+		display: none;
+	}
+	.header {
+		display: flex;
+		flex-direction: column;
 	}
 	.work-container {
 		margin-top: -650px;
@@ -64,8 +73,33 @@
 	.box {
 		display: none;
 	}
+	.work-title {
+		align-items: center;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+		flex-direction: column;
+	}
+	.work-title img {
+		margin: 0;
+		width: 80%;
+	}
+	.work-title div {
+		width: auto;
+	}
+	.info {
+		margin: 0;
+	}
+	.work-link {
+		margin: 0px;
+	}
+	.infoText {
+		width: auto;
+		margin: -80px 30px 0px 30px;
+	}
 	.education {
-		margin-top: 90px;
+		margin-top: 80px;
+		background-color: #040129;
 	}
 	.education h1 {
 		margin: 0px 0px 20px 0px;
@@ -79,7 +113,7 @@
 	}
 	.skills-section {
 		margin: 0;
-		margin-top: 450px;
+		margin-top: 480px;
 		flex-direction: column;
 	}
 	.card {
@@ -125,7 +159,7 @@
 		font-size: 20px;
 	}
 	.contact-form textarea {
-		height: 100px;
+		height: 60px;
 	}
 	.contact-info h1,
 	.contact-form h1 {
@@ -144,10 +178,40 @@
 	.footer {
 		padding: 10% 0px;
 	}
+	.Work-link {
+		margin: 0;
+		margin-top: -40px;
+	}
+	.infoText div {
+		margin-bottom: 40px;
+	}
+	.under-pictures {
+		flex-direction: column;
+		align-items: center;
+		margin-top: -20px;
+	}
+	.under-pictures img {
+		width: 80%;
+	}
+	.info {
+		width: 900px;
+	}
+	.contact-form input {
+		height: 30;
+	}
+	.contact-form button,
+	.contact-form label {
+		font-size: 14px;
+	}
 }
 @media (max-width: 1480px) and (min-width: 1000px) {
 	body {
 		margin: 0;
+	}
+	.profilePicture img {
+		margin-top: 20%;
+		margin: 0;
+		margin-left: 50px;
 	}
 	.card-list {
 		align-items: center;
@@ -197,7 +261,6 @@
 		align-items: center;
 		flex-direction: column;
 		align-items: center;
-		padding: 50px;
 		flex-direction: column;
 	}
 	.work-title img {
@@ -205,9 +268,7 @@
 		margin-top: 30px;
 		margin-left: 0;
 	}
-	.work-title div {
-		width: 70%;
-	}
+
 	.under-pictures {
 		flex-direction: column;
 		align-items: center;

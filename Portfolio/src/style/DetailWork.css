@@ -44,6 +44,7 @@
 	font-family: “Palanquin”, sans-serif;
 	cursor: pointer;
 	font-weight: 100;
+	text-decoration: underline;
 }
 .infoText {
 	display: flex;
